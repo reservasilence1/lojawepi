@@ -25,12 +25,14 @@ export default function RootLayout({
             {/* PIXEL2 */}
             <Script id="pixel2" strategy="afterInteractive">
               {`
-                window.pixelId = "6948d9621127add55d211c18";
-                var a = document.createElement("script");
-                a.setAttribute("async", "");
-                a.setAttribute("defer", "");
-                a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-                document.head.appendChild(a);
+            
+              window.pixelId = "6948d9621127add55d211c18";
+              var a = document.createElement("script");
+              a.setAttribute("async", "");
+              a.setAttribute("defer", "");
+              a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+              document.head.appendChild(a);
+
               `}
             </Script>
             
